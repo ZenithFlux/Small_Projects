@@ -1,6 +1,6 @@
 import socket
 
-connection = socket.create_connection(('8.tcp.ngrok.io', 19935))
+connection = socket.create_connection(('Server address', 16557)) #Put ngrok Server Address and port number here
 
 confirmation_msg = connection.recv(1024).decode()
 if confirmation_msg != "":
