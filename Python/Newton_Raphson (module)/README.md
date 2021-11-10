@@ -19,7 +19,7 @@ into a solvable function and to differentiate that function.
 
 4- Near point taken should be closer to the root you need than to any other root (if the function has multiple roots).
 
-#### Source - [Brilliant.org](https://brilliant.org/wiki/newton-raphson-method/#:~:text=The%20Newton%2DRaphson%20method%20(also,straight%20line%20tangent%20to%20it.)
+#### Source - [Brilliant.org](https://brilliant.org/wiki/newton-raphson-method/)
 
 ## Python *'NewRaphAlgorithm'* function rules:
 
