@@ -1,3 +1,11 @@
-/Python/Emotion Detection (ML)/venv
-/Python/Emotion Detection (ML)/data
-/Python/Emotion Detection (ML)/.ipynb_checkpoints
+# ignore filenames starting with underscore except when ending with __.py
+_*
+!*__.py
+
+# dev folders
+venv
+dataset
+.ipynb_checkpoints
+
+# Misc
+/Deep Learning/Dog Breed Classifier/model
