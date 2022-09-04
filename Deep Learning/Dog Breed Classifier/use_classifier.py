@@ -47,7 +47,7 @@ def predict_breed(img_path: str, model_path: str):
 
 
 if __name__ == "__main__":
-    os.environ['TF_CPP_MIN_LOG_LEVEL'] = '1'
+    os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
     
     print("\nThis is a Dog Breed classifier. This program can recognize a dog's breed by looking at its image.")
     path = input("Enter image path: ")
