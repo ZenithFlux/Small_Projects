@@ -2,10 +2,12 @@
 _*
 !*__.py
 
-# dev folders
+# dev files and folders
 venv
 dataset
 .ipynb_checkpoints
+*.pt
 
 # Misc
 /Deep Learning/Dog Breed Classifier/model
+/Deep Learning/Face Recognition/face_codes.dict
