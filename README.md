@@ -77,3 +77,7 @@ Copy last state of `<branch>` into current branch. Must be followed by `git comm
 **17. git branch -d \<name>**
 
 Delete branch locally.
+
+# Miscellaneous
+
+[Unofficial Windows Binaries for Python Extension Packages](https://www.lfd.uci.edu/~gohlke/pythonlibs/)
