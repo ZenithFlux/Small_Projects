@@ -36,9 +36,9 @@ Clone an online repo in the current folder.
 
 Pull all changes from online repo to local one. It is required to commit all changes before this.
 
-**9. git reset --hard head\~n**
+**9. git reset head\~n**
 
-Revert the changes done by nth last commit. All commits in between are deleted. You can use commit code instead of 'head~n'.
+Move back by n commits. All commits in between are deleted. You can use commit code instead of 'head~n'.
 
 **10. git revert head\~n**
 
