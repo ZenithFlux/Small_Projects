@@ -4,6 +4,7 @@ _*
 
 # dev files and folders
 venv
+.env
 dataset
 .ipynb_checkpoints
 *.pt

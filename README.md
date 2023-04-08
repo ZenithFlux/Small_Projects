@@ -12,9 +12,9 @@ Initializes current folder as local git repository and adds default branch 'main
 
 Sets an online repo as origin of local one.
 
-**3. git push -u origin main**
+**3. git push -u origin HEAD**
 
-Sets 'main' branch as upstream branch and pushes all commited changes. It is required to use `git commit` before this command.
+Sets remote branch with same name as current branch as upstream branch and pushes all commited changes. Creates a new branch at remote if it doesn't exist. It is required to use `git commit` before this command.
 
 **4. git add --all**
 
@@ -54,9 +54,9 @@ Reduce the size of repo by cleaning all garbage data.
 
 ## Branch commands
 
-**12. git branch \<name>**
+**12. git checkout -b \<name>**
 
-Create new branch
+Create a new branch and switch to it.
 
 **13. git branch**
 
