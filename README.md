@@ -2,7 +2,16 @@
 
 All of my small programs will go here. No pull request will be accepted for this repository.
 
-# Useful Git Commands
+<details open>
+    <summary><i> Useful Tips and Tricks </i></summary>
+    <ul>
+        <li> If you want to link an image (or file) from a GitHub repository, add '<strong>?raw=true</strong>' at the end of the URL to the file.
+        </li>
+        <li> <a href="https://www.lfd.uci.edu/~gohlke/pythonlibs/">Unofficial Windows Binaries for Python Extension Packages</a> (can be used when pip isn't able to compile a package).</li>
+    </ul>
+</details>
+
+# Important Git Commands
 
 **1. git init -b main**
 
@@ -77,7 +86,3 @@ Copy last state of `<branch>` into current branch. Must be followed by `git comm
 **17. git branch -d \<name>**
 
 Delete branch locally.
-
-# Miscellaneous
-
-[Unofficial Windows Binaries for Python Extension Packages](https://www.lfd.uci.edu/~gohlke/pythonlibs/)

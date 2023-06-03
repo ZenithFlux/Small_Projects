@@ -8,6 +8,7 @@ venv
 dataset
 .ipynb_checkpoints
 *.pt
+.R*
 
 # Misc
 /Deep Learning/Dog Breed Classifier/model
