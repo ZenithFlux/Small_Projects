@@ -25,9 +25,9 @@ Sets an online repo as origin of local one.
 
 Sets remote branch with same name as current branch as upstream branch and pushes all commited changes. Creates a new branch at remote if it doesn't exist. It is required to use `git commit` before this command.
 
-**4. git add --all**
+**4. git add -A**
 
-Set all of the changes made in repository for commit.
+Stage all the changes made in repository for commit.
 
 **5. git commit -m 'message'**
 
@@ -45,13 +45,13 @@ Clone an online repo in the current folder.
 
 Pull all changes from online repo to local one. It is required to commit all changes before this.
 
-**9. git reset head\~n**
+**9. git reset HEAD\~n**
 
-Move back by n commits. All commits in between are deleted. You can use commit code instead of 'head~n'.
+Move back by n commits. All commits in between are deleted. You can use commit code instead of 'HEAD~n'.
 
-**10. git revert head\~n**
+**10. git revert HEAD\~n**
 
-Revert the changes done by nth last commit as a new commit. You can use commit code instead of 'head~n'.
+Revert the changes done by nth last commit as a new commit. You can use commit code instead of 'HEAD~n'.
 
 **11. git log**
 
